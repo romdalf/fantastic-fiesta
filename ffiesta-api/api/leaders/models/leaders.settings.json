@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leaders",
+  "info": {
+    "name": "leaders",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nickname": {
+      "type": "string"
+    },
+    "Time": {
+      "type": "biginteger",
+      "default": "999999"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    }
+  }
+}
